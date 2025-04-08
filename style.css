@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #0a4067;
+    background-color: #1F874C;
     overflow-x: hidden;
 }
 
@@ -166,9 +166,8 @@ html, body {
 }
 
 .header {
-    padding-top: 80px;
-    padding-bottom: 80px;
     margin-bottom: 40px;
+    background-color: #1F874C;
     
 }
 
@@ -185,7 +184,7 @@ html, body {
 }
 
 .footer {
-    background-color: #14261c;
+    background-color: #1F874C;
 }
 
 .footer a {
