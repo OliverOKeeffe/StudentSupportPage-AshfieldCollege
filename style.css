@@ -27,7 +27,7 @@ html, body {
 
 .poppins-regular {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 550;
     font-style: normal;
     font-size: 2rem;
     margin-top: 40px;
@@ -188,7 +188,7 @@ html, body {
 }
 
 .body {
-    background-color: #136637;
+    background-color: #1C8248;
     padding-top: 20px;
     padding-bottom: 20px;
     /* background-color: #1FD16C; */
