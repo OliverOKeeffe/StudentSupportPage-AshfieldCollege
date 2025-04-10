@@ -30,8 +30,9 @@ html, body {
     font-weight: 550;
     font-style: normal;
     font-size: 2rem;
-    margin-top: 40px;
-    color: white;
+    margin-top: 30px;
+    color: rgb(0, 160, 70);
+    /* color: #1F874C */
 }
 
 .poppins-medium {
@@ -179,6 +180,11 @@ html, body {
     
 }
 
+.header-logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .poppins-bold-header {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -188,10 +194,14 @@ html, body {
 }
 
 .body {
-    background-color: #1C8248;
     padding-top: 20px;
     padding-bottom: 20px;
+    /* background-color: #1C8248; */
     /* background-color: #1FD16C; */
+    /* background-color: #1F874C; */
+    /* background-color: #C8F1DA; */
+    background-color: #f8f9fa;
+
 }
 
 .footer {
@@ -238,7 +248,13 @@ html, body {
     flex: 0 0 30%;
     scroll-snap-align: center;
     padding-bottom: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
 }
+
+.video-card:hover {
+    transform: translateY(-5px);
+  }
 
 /* Responsive styles for horizontal scroll on mobile */
 @media screen and (max-width: 768px) {
