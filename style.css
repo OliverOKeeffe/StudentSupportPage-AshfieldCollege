@@ -175,7 +175,6 @@ html, body {
 }
 
 .header {
-    margin-bottom: 40px;
     background-color: #1F874C;
     
 }
@@ -189,11 +188,15 @@ html, body {
 }
 
 .body {
-    background-color: #1F874C;
+    background-color: #136637;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #1FD16C; */
 }
 
 .footer {
     background-color: #1F874C;
+    position: relative;
 }
 
 .footer a {
@@ -234,6 +237,7 @@ html, body {
 .video-card {
     flex: 0 0 30%;
     scroll-snap-align: center;
+    padding-bottom: 10px;
 }
 
 /* Responsive styles for horizontal scroll on mobile */
